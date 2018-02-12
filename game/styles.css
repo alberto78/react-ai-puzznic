@@ -1,0 +1,77 @@
+.square {
+  float: left;
+  width: 32px;
+  height: 32px;
+  background: #000;
+  border: 1px solid #050505;
+  font-size: 24px;
+}
+
+.square:hover {
+  border: 1px solid #333;
+}
+
+.square:active,
+.square:focus {
+  border: 1px solid #fff;
+}
+
+.square:hover {
+  border: 1px solid #333;
+}
+
+.square__1 {
+  background: #100;
+  color: #f00;
+}
+
+.square__2 {
+  background: #010;
+  color: #0f0;
+}
+
+.square__3 {
+  background: #001;
+  color: #00f;
+}
+
+.square__4 {
+  background: #110;
+  color: #ff0;
+}
+
+.square__5 {
+  background: #011;
+  color: #066;
+}
+
+.square__6 {
+  background: #101;
+  color: #f0f;
+}
+
+.square__7 {
+  background: #010;
+  color: #060;
+}
+
+.square__8 {
+  background: #101;
+  color: #606;
+}
+
+.square__9 {
+  background: #011;
+  color: #0ff;
+}
+
+.square__0 {
+  background: #333;
+  border: 2px solid #222;
+}
+
+.row {
+  height: 32px;
+  margin: 0;
+  padding: 0;
+}
