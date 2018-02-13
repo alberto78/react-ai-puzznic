@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { getPieceMoves } from '../common/util'
 import { updateTilemap } from '../common/update'
-import * as tilemap from '../common/tilemap';
+import * as tilemap from '../tilemaps/02';
 import './styles.css';
 
 const Square = (props) => {

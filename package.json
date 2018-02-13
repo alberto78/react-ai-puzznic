@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --config webpack.config.dev.js --port 1234"
+    "dev": "webpack-dev-server --config webpack.config.dev.js --port 1234",
+    "solve": "node ai/index.js"
   },
   "keywords": [],
   "author": "",

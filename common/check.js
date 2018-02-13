@@ -13,6 +13,8 @@ const areEqual = (tmap1, tmap2) => tmap1.hash === tmap2.hash;
 
 const freeBottom = (pos, tmap) => isFree(pos + tmap.cols, tmap);
 
+const numPieces = (tmap) => tmap.tiles.filter((piece, pos) => isPiece(pos, tmap)).length;
+
 export {
   _WALL,
   _EMPTY,
@@ -23,5 +25,6 @@ export {
   matchRight,
   matchBottom,
   areEqual,
-  freeBottom
+  freeBottom,
+  numPieces
 }
